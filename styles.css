@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: url(img/images-removebg-preview.png); */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cf3131;
+    padding: 50px;
+    background: url(img/birla-opus-paints.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* opacity: 0.33; */
+  }
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    /* opacity: 5; */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 16px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    label, input, button {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 10px;
+    }
+
+    #result {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    label, input, button {
+        font-size: 12px;
+    }
+
+    button {
+        padding: 8px;
+    }
+
+    #result {
+        font-size: 14px;
+    }
+}
